@@ -1,0 +1,15 @@
+{
+  "name": "gpt-fight-sim",
+  "version": "1.0.0",
+  "description": "은가누 vs 오타니 GPT 판단 시뮬레이터",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "cors": "^2.8.5"
+  }
+}
