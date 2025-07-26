@@ -1,0 +1,30 @@
+body {
+  background: #222;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-section {
+  margin: 20px;
+}
+
+#arena {
+  margin-top: 30px;
+  height: 300px;
+  position: relative;
+}
+
+.fighter {
+  position: absolute;
+  width: 100px;
+  top: 50px;
+}
+
+#ngannou { left: 100px; }
+#ohtani { right: 100px; }
+
+#result {
+  font-size: 24px;
+  margin-top: 30px;
+}
