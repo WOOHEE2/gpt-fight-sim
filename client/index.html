@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>은가누 vs 오타니 GPT 시뮬레이터</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>GPT 결투 시뮬레이터</h1>
+
+  <div class="input-section">
+    <label>은가누 수식어: <input type="text" id="ngannouInput"></label><br>
+    <label>오타니 수식어: <input type="text" id="ohtaniInput"></label><br>
+    <button onclick="startFight()">결투 시작!</button>
+  </div>
+
+  <div id="arena">
+    <img id="ngannou" class="fighter" src="ngannou.png" alt="Ngannou">
+    <img id="ohtani" class="fighter" src="ohtani.png" alt="Ohtani">
+  </div>
+
+  <div id="result"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
